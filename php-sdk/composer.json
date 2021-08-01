@@ -1,0 +1,23 @@
+{
+    "name": "nsabank/php-sdk",
+    "description": "NSA Bank Payment Gateway",
+    "type": "library",
+    "authors": [
+    {
+        "name": "NSA Labs",
+        "email": "dev@nsa.net.br"
+    }],
+    "require":
+    {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload":
+    {
+        "psr-0":
+        {
+            "NSABank": "src/"
+        }
+    }
+}

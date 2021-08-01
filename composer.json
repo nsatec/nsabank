@@ -1,0 +1,17 @@
+{
+    "name": "nsatec/NSABank",
+    "authors": [
+        {
+            "name": "NSA Labs",
+            "email": "dev@nsa.net.br"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0": {
+            "NSABank": "php-sdk/src/"
+        }
+    }
+}
